@@ -1,0 +1,20 @@
+#select-one{
+    background-color: #008cf6;
+    padding: 0 10px;
+    color: white;
+}
+
+@media screen and (max-width: 575px) {
+  #container{
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+}
+}
+
+@media screen and (min-width: 576px) {
+  #container{
+      margin-left: 25%; 
+      margin-right: 25%;
+}
+}
