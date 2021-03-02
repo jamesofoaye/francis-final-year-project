@@ -18,3 +18,130 @@
       margin-right: 25%;
 }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --navbar: #008CF6;
+  --white: #fff;
+}
+
+p, li,a ,ol, ul {
+  margin: 0;
+}
+
+/* ========== NAV BAR ========= */
+.navbar {
+  background: var(--navbar);
+  color: var(--white);
+  padding: .7rem 1rem;
+}
+
+header p {
+  margin: 2rem 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* COntainer */
+
+.container-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container-wrapper .container {
+ /* border: 1px solid #707070; */
+ border-left: .5px solid #707070;
+ border-right: .5px solid #707070;
+
+ border-top-left-radius: 1.8em;
+ border-top-right-radius: 1.8em;
+ border-bottom-left-radius: 2.0em;
+ border-bottom-right-radius: 2.0em;
+ /* border-bottom-right-radius: 3em; */
+ /* border-bottom-left-radius: 3em; */
+ padding: 0 !important;
+}
+
+.container-wrapper .curved-bar {
+  height: 7vh;
+  width: 100%;
+  background: var(--navbar);
+
+  border-radius: 82px 82px 82px 82px;
+-moz-border-radius: 82px 82px 82px 82px;
+-webkit-border-radius: 82px 82px 82px 82px;
+border: 0px solid #000000;
+}
+
+.intro {
+  margin: 1rem 1rem;
+  text-transform: capitalize;
+  background-color: #F6F6F6;
+  padding: 1rem;
+}
+
+.form .form-group {
+  margin: 1rem;
+}
+
+.form-group a {
+  margin-top: 1rem;
+  width: 100%;
+  background: #06C90D;
+  color: var(--white);
+  border-radius: 2em;
+  padding: .8rem;
+}
+
+.votting .curved-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navbar);
+  
+}
+
+.votting .curved-bar span {
+  color: var(--white);
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.votting .intro {
+  background: transparent;
+}
+
+.padding {
+  border: 1px solid #707070;
+  padding: .4rem;
+
+}
+
+.candidate-details {
+  display: flex;
+  align-items: center;
+  /* margin-left: 1rem; */
+}
+
+
+.candidate-details .img-wrapper {
+  margin-right: 1rem;
+}
+
+.profile-pic {
+  height: 10vh;
+}
+
+.votting .form-group {
+  margin: 1.5rem 1rem;
+  padding-top: .7rem;
+  border-top: 1px solid #707070;
+
+}
